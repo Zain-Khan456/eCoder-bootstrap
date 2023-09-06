@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eCoder</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">eCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Technology</a></li>
+                <li><a class="dropdown-item" href="#">Web development</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Write for us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="mx-2">
+            <button class="btn btn-danger">LogIn</button>
+            <button class="btn btn-danger">SignUp</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navigation-bar -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner img-fluid">
+        <div class="carousel-item active">
+          <img src="homeimg1.jpg" class="d-block w-100" alt="homeimgs" />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Mastering the Art of Coding: Tips and Tricks</h3>
+            <p>Time Management Hacks for Productive Coding Sessions.</p>
+            <button type="button" class="btn btn-primary btn-sm">
+              Technology
+            </button>
+            <button type="button" class="btn btn-success btn-sm">
+              Web Development
+            </button>
+            <button type="button" class="btn btn-danger btn-sm">
+              Tech Fun
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item img-fluid">
+          <img src="homeimg2.jpg" class="d-block w-100" alt="homeimgs" />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Exploring the World of Programming Languages</h3>
+            <p>A Roadmap to Becoming a Full-Stack Developer.</p>
+            <button type="button" class="btn btn-primary btn-sm">
+              Technology
+            </button>
+            <button type="button" class="btn btn-success btn-sm">
+              Web Development
+            </button>
+            <button type="button" class="btn btn-danger btn-sm">
+              Tech Fun
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item Contact.html">
+          <img src="homeimg3.jpg" class="d-block w-100" alt="homeimgs" />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Code Optimization: Boosting Performance Like a Pro</h3>
+            <p>
+              Diving into the Elegance of Functional Programming with Haskell.
+            </p>
+            <button type="button" class="btn btn-primary btn-sm">
+              Technology
+            </button>
+            <button type="button" class="btn btn-success btn-sm">
+              Web Development
+            </button>
+            <button type="button" class="btn btn-danger btn-sm">
+              Tech Fun
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Images-carousel -->
+
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container img-fluid">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cardimg1.jpg" alt="card-img" />
+              <div class="card-body">
+                <p class="card-text">
+                  Learn how to improve the quality and maintainability of your
+                  codebase through effective code refactoring techniques.
+                  Discover best practices and real-world examples to make your
+                  code shine.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                      READ ARTICLE
+                    </button>
+                  </div>
+                  <small class="text-body-secondary"
+                    >The Art of Code Refactoring</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cardimg2.jpg" alt="card-img" />
+              <div class="card-body">
+                <p class="card-text">
+                  Ensure the safety of your applications with this comprehensive
+                  security guide. Discover essential practices, tools, and
+                  techniques to protect your software from common
+                  vulnerabilities and cyber threats.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                      READ ARTICLE
+                    </button>
+                  </div>
+                  <small class="text-body-secondary"
+                    >Securing Your Applications</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cardimg3.jpg" alt="card-img" />
+              <div class="card-body">
+                <p class="card-text">
+                  Explore the game-changing technology of WebAssembly (Wasm) and
+                  how it's revolutionizing web development. Learn how to harness
+                  its power to build faster and more efficient web applications.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                      READ ARTICLE
+                    </button>
+                  </div>
+                  <small class="text-body-secondary"
+                    >The Future of Web Development</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cardimg4.jpg" alt="card-img" />
+              <div class="card-body">
+                <p class="card-text">
+                  Get a grasp on the fundamentals of machine learning
+                  algorithms. This blog breaks down complex concepts into
+                  digestible pieces, making it easier for beginners to
+                  understand and apply ML in their projects.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                      READ ARTICLE
+                    </button>
+                  </div>
+                  <small class="text-body-secondary"
+                    >Machine Learning Algorithms</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cardimg5.jpg" alt="card-img" />
+              <div class="card-body">
+                <p class="card-text">
+                  Dive into the world of real-time communication by creating a
+                  chat application using WebSocket technology. This step-by-step
+                  guide will help you understand the mechanics behind instant
+                  messaging.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                      READ ARTICLE
+                    </button>
+                  </div>
+                  <small class="text-body-secondary"
+                    >Building a Chat Application</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cards -->
+
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+      <hr />
+      <p>
+        © 2023–2024 Company, Inc. <a href="">Privacy</a>. <a href="">Terms</a>.
+      </p>
+      <p class="mb-0">
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+    <!-- footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
